@@ -51,7 +51,6 @@ font-size: 20px;
 
 .container {
   display: overflow;
-  padding-left: 450px;
   flex-wrap: wrap;
   margin top: 100px;
 }
