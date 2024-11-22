@@ -49,7 +49,7 @@ font-size: 20px;
 }
 
 .card{
-  width: 300px;
+  width: 320px;
   height: 500px;
   background-color: darkblue;
   border-radius: 8px;
@@ -87,7 +87,7 @@ ul li a{
 }
 
 .card tr td{
-  font-size: 26px;
+  font-size: 15px;
   color: white;
   font-weight: bold;
 }
