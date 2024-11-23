@@ -92,6 +92,11 @@ ul li a{
   font-weight: bold;
 }
 
+.aside{
+  float: right;
+  margin-left: 60px;
+}
+
 .card table{
   margin-top: 12px;
   margin-left: 45px;
