@@ -1,79 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BiodataKu</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="header">
-    <h1> Fahdhy</h1>
-    <ul>
-      <li><a href="#bio">Biodata</a></li>
-    <li><a href="#hobiku">Hobiku</a></li>
-    <li><a href="#mapel">mapel favorit</a></li>
-    <li><a href="#makanan">makanan favorit</a></li>
-    <li><a href="#pengalaman">pengalaman saya</a></li>
-  </ul>
-</div>
-  <div class="container">
-    <article id="bio">
-      <aside>
-    <div class="card">
-      <h2 style="color: yellowgreen;"> BioKu </h2>
-    <img src="image/ki.jpg" alt="Deskripsi gambar" width="300" height="300" style="border-radius: 8px;">
-    <table border>
-      <tr><td>Nama</td><td>:</td><td>M. Fahdhy Akbar</td></tr>
-      <tr><td>Sekolah</td><td>:</td><td>SMKN9 MEDAN</td></tr>
-      <tr><td>Negara</td><td>:</td><td>Indonesia</td></tr>
-      <tr><td>No.telp</td><td>:</td><td>+628933774</td></tr>
-      
-  </table>
-    </div>
-      </aside>
-  </article>
-   
+  <header class="header">
+    <h1>Fahdhy</h1>
+    <nav>
+      <ul>
+        <li><a href="#hobiku">Hobiku</a></li>
+        <li><a href="#mapel">Mapel Favorit</a></li>
+        <li><a href="#makanan">Makanan Favorit</a></li>
+        <li><a href="#pengalaman">Pengalaman</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <article id="hobiku"> 
-  <div class="card">
-    <img src="image/Screenshot_2024_1122_201828.png" alt="Deskripsi gambar" width="500" height="300">
-      <h3 style="color: yellowgreen;">Hobi Saya</h3>
-      <p>hobi saya adalah menggambar,karena menurut saya hobi menggambar itu sangat simpel,hanya menggunakan kertas gambar saja saya bisa membuat seni gambar sesuai konsep berpikir saya.</p>
-    </div>
-  </article>
-   
-  <article id="mapel">
-    <div class="card">
-      <img src="image/la.png" alt="Desripsi gambar" width="500" height="300">
-        <h3 style="color: yellowgreen;">MataPelajaran Favorit</h3>
-        <p>Mata pelajaran Favorit saya adalah pemrograman karena menurut saya bidang ini cocok sama saya,kita akan menghadapi studi kasus yang beragam,dan itu melatih logika berpikir saya</p>
-    </div>
-  </article>
+  <main class="main-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <section id="bio">
+        <img src="image/ki.jpg" alt="Foto Profil">
+        <h3>Biodata Saya</h3>
+        <table>
+          <tr><td>Nama</td><td>:</td><td>M. Fahdhy Akbar</td></tr>
+          <tr><td>Sekolah</td><td>:</td><td>SMKN 9 Medan</td></tr>
+          <tr><td>Negara</td><td>:</td><td>Indonesia</td></tr>
+          <tr><td>No. Telp</td><td>:</td><td>+628933774</td></tr>
+        </table>
+      </section>
+    </aside>
 
+    <!-- Konten Utama -->
+    <article class="content">
+      <section id="hobiku">
+        <h3>Hobi Saya</h3>
+        <img src="image/Screenshot_2024_1122_201828.png" alt="Gambar Hobi">
+        <p>Hobi saya adalah menggambar, karena menurut saya hobi ini sangat simpel. Dengan kertas gambar saja, saya bisa membuat seni gambar sesuai konsep berpikir saya.</p>
+      </section>
 
-  <article id="makanan">
-    <div class="card">
-      <img src="image/mi.png" alt="Desripsi gambar" width="500" height="300">
-        <h3 style="color: yellowgreen;">Makanan Favorit</h3>
-        <p>saya sangat suka dengan mie ayam ini,karena rasanya sungguh gurih dan cocok dinikmati saat cuaca sedang hujan,behh behhh.</p>
-    </div>
-  </article>
+      <section id="mapel">
+        <h3>Mata Pelajaran Favorit</h3>
+        <img src="image/la.png" alt="Gambar Mapel Favorit">
+        <p>Mata pelajaran favorit saya adalah pemrograman, karena bidang ini cocok untuk saya. Kita menghadapi studi kasus yang beragam, yang melatih logika berpikir saya.</p>
+      </section>
 
-  <article id="pengalaman">
-    <div class="card">
-     <img src="image/IMG-20241121-WA0007.jpg" alt="Deskripsi gambar" width="500" height="300">
-       <h2 style="color: yellowgreen;"> Pengalaman </h2>
-       <p>Saya pernah mengikuti lomba menggambar sewaktu saya di smpn 40 Medan,waktu itu saya mengikuti lomba menggambar di kantor TAMAN BUDAYA,sampai akhirnya saya dapat juara 1.</p>
-</div>
-</article>
-  </div>
+      <section id="makanan">
+        <h3>Makanan Favorit</h3>
+        <img src="image/mi.png" alt="Gambar Makanan Favorit">
+        <p>Saya sangat suka mie ayam, karena rasanya gurih dan cocok dinikmati saat cuaca sedang hujan, beehhh beehhh.</p>
+      </section>
 
-<div class="footer">
-  <p> Fahdhy cool smkn9 medan web.</p>
-</div>
+      <section id="pengalaman">
+        <h3>Pengalaman</h3>
+        <img src="image/IMG-20241121-WA0007.jpg" alt="Gambar Pengalaman">
+        <p>Saya pernah mengikuti lomba menggambar di SMPN 40 Medan, yang diadakan di kantor Taman Budaya, dan saya berhasil meraih juara 1.</p>
+      </section>
+    </article>
+  </main>
 
-
-
+  <footer class="footer">
+    <p>&copy; 2024 Fahdhy's Website. All rights reserved.</p>
+  </footer>
 </body>
-  </html>
+    </html>
